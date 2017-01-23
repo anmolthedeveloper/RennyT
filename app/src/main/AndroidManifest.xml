@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anmolthedeveloper.audiotouristguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".State_MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Andaman_And_Nicobar_MainActivity"
+            android:label="@string/title_activity_andaman__and__nicobar__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Madhyapradesh.Madhyapradesh_MainActivity"
+            android:label="@string/title_activity_madhyapradesh__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Maharashtra.Maharashtra_MainActivity"
+            android:label="@string/title_activity_maharashtra__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Manipur.Manipur_MainActivity"
+            android:label="@string/title_activity_manipur__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Meghalaya.Meghalaya_MainActivity"
+            android:label="@string/title_activity_meghalaya__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Mizoram.Mizoram_MainActivity"
+            android:label="@string/title_activity_mizoram__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Nagaland.Nagaland_MainActivity"
+            android:label="@string/title_activity_nagaland__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Odhisha.Odisha_MainActivity"
+            android:label="@string/title_activity_odisha__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Pondicherry.Pondicherry_MainActivity"
+            android:label="@string/title_activity_pondicherry__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Punjab.Punjab_MainActivity"
+            android:label="@string/title_activity_punjab__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Rajasthan.Rajasthan_MainActivity"
+            android:label="@string/title_activity_rajasthan__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Sikkim.Sikkim_MainActivity"
+            android:label="@string/title_activity_sikkim__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Tamilnadu.Tamilnadu_MainActivity"
+            android:label="@string/title_activity_tamilnadu__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Telangana.Telangana_MainActivity"
+            android:label="@string/title_activity_telangana__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Tripura.Tripura_MainActivity"
+            android:label="@string/title_activity_tripura__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Uttarakhand.Uttarakhand_MainActivity"
+            android:label="@string/title_activity_uttarakhand__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Uttarpradesh.Uttarpradesh_MainActivity"
+            android:label="@string/title_activity_uttarpradesh__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.West_Bengal.Westbengal_MainActivity"
+            android:label="@string/title_activity_westbengal__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Andhrapradesh.Andhrapradesh_MainActivity"
+            android:label="@string/title_activity_andhrapradesh__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Arunachalpradesh.Arunachalpradesh_MainActivity"
+            android:label="@string/title_activity_arunachalpradesh__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.assam.Assam_MainActivity"
+            android:label="@string/title_activity_assam__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Assam.Assam_MainActivity"
+            android:label="@string/title_activity_assam__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Bihar.Bihar_MainActivity"
+            android:label="@string/title_activity_bihar__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Chandighar.Chandighar_MainActivity"
+            android:label="@string/title_activity_chandighar__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Chhattisgarh.Chhattisgarh_MainActivity"
+            android:label="@string/title_activity_chhattisgarh__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Dadarandnagarhaveli.Dadarandnagarhaveli_MainActivity"
+            android:label="@string/title_activity_dadarandnagarhaveli__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Damananddiu.Damananddiu_MainActivity"
+            android:label="@string/title_activity_damananddiu__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Delhi.Delhi_MainActivity"
+            android:label="@string/title_activity_delhi__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Goa.Goa_MainActivity"
+            android:label="@string/title_activity_goa__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Gujarat.Gujarat_MainActivity"
+            android:label="@string/title_activity_gujarat__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Himachalpradesh.Himachalpradesh_MainActivity"
+            android:label="@string/title_activity_himachalpradesh__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Jammuandkashmir.Jammuandkashmir_MainActivity"
+            android:label="@string/title_activity_jammuandkashmir__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Jharkhand.Jharkhand_MainActivity"
+            android:label="@string/title_activity_jharkhand__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Karnataka.Karnataka_MainActivity"
+            android:label="@string/title_activity_karnataka__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Kerala.Kerala_MainActivity"
+            android:label="@string/title_activity_kerala__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inner_State_Activitys.Andaman_And_Nicobar.Lakshadweep.Lakshadweep_MainActivity"
+            android:label="@string/title_activity_lakshadweep__main"
+            android:parentActivityName=".State_MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.anmolthedeveloper.audiotouristguide.State_MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
